@@ -277,7 +277,7 @@ h4{
     padding: 60px 0px 40px;
     height: 525px;
     margin: 0px 80px;
-    width: 1022px;
+    width: auto;
 }
 .heading2{
     color: #316DC3;
@@ -288,15 +288,16 @@ h4{
 }
 .gallerycontainer{
     padding: 0px 0px;
-    margin: 0px;
+    margin: auto;
+    background-color: lawngreen;
 
 }
 div.galleryitem{
     width: 200px;
     height: 300px;
-    display: inline-block;
+    float : left ;
     padding-right: 1px;
-    color: #666666;
+    border: 3px solid white;
 
 
 }
