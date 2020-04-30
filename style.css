@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+.topbar{
+    background-color: rgba(14, 125, 216);
+    color: #fff;
+    padding: 10px;
+    align-content: center;
+    height: 45px;
+    font-size: 13px;
+}
+.topbar i {
+    margin: 0 15px ;
+    color: #fff;
+
+}
+.social a{
+    padding: 0px;
+}
+
+.container { 
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   }
+
+.motto{
+    margin:0px 40px 16px;
+    text-align: center;
+    font-size: 15px;
+}
+.headbutton{
+    padding-left: 40px;
+    padding-right: 35px;
+    float: right;
+    width: auto;
+    color: #000;
+    padding: 5 15px;
+    font-size: 12px;
+    text-align: center;
+}
+.imageone{
+    float: left;
+}
+.button{
+    float: right;
+    margin-top: 20px;
+}
+
+.button ul li{
+    display: inline-block;
+}
+.button ul li a {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.button ul li  :hover{
+    background-color: #316dc3 ;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
+
+
+.inline{
+    display: inline-block;
+}
+
+.row-2 {
+    background-color: #fff;
+    position: relative;
+}
+.row-3{
+    padding-top: 10px;
+}
+.headimage{
+    cursor: pointer;
+    visibility: inherit;
+    display: block;
+
+}
+
+marquee {
+    background-color: rgba(14, 125, 216);
+    color: #fff;
+    height: 25px;
+    width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45px;
+    font-family: serif;
+    margin: 20px 0;
+    color: #316DC3;
+    line-height: 1 !important;
+}
+.color-tone  {
+    color: #427900;
+}
+
+.imagetwo{
+    margin: 0 auto;
+    max-width: 160px;
+    position: relative;
+    text-align: center;
+}
+.paragraph{
+    padding-top: 15px;
+    line-height: 2.1;
+    margin: 0 0 10px;
+    margin-bottom: 10px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    width: 86%;
+}
+.row-5{
+    margin-bottom: 50px;
+    height: 300px;
+}
+.counter{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(36, 81, 242, 0.822);
+    background-size: cover;
+    position: relative;
+    margin: 100px 0 0 0;
+    padding-top: 70px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   text-align: center;
+}
+.f-pixel {
+    font-size:48px;
+    color: #fff;
+    font-family: serif;
+}
+.icons{
+    padding-right: 70px;
+}
+h5 {
+    color: #fff;
+    font-family: serif;
+    margin: 10px 0px ;
+}
+h2{
+    font-weight: 600px;
+    text-align: center;
+    font-family: serif;
+    color: rgb(25, 25, 250);
+
+}
+.row-6{
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.box{
+    display: inline-block;
+    color: rgb(25, 25, 250);
+    text-align: center;
+    margin: 0px 0px 30px;
+    margin-left: 20px;
+    padding: 30px;
+    width: 340px;
+    height: 170px;
+}
+.box1{
+    display: inline-block;
+    color: rgb(25, 25, 250);
+    text-align: center;
+    margin: 0px 0px 30px;
+    margin-left: 20px;
+    padding: 30px;
+    width: 340px;
+    height: 170px;
+}
+
+h4{
+    margin: 20px 0px 10px;
+    color: #316dc3;
+    font-family: serif ;
+    font-weight: 700px ;
+    padding-top: 15px;
+    font-size: 18px !important;
+
+}
+.title {
+    font-size: 24px;
+    color: #316DC3;
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+}
+.sider{
+    width: 323px;
+    height: 291px;
+    border: 1px black;
+    float: right;
+    margin-right: 150px;
+    color: #316DC3;
+    padding: 0px 15px;
+}
+.sider p{
+    color: #666666 ;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #fff;
+    line-height: 1.7;
+    text-align: justify;
+
+}
+.sider marquee{
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+}
+.box2{
+    margin-left: 65px;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 14px;
+    color: #666666;
+    width: 340px;
+    height: 70px;
+    display: inline-block;
+    border: 1px solid rgba(219, 202, 202, 0.527);
+    text-align: left;
+}
+
+.box3{
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #666666;
+    width: 340px;
+    height: 70px;
+    border: 1px solid rgba(219, 202, 202, 0.527);
+    display: inline-block;
+}
+.box4{
+    margin-left: 65px;
+    font-size: 14px;
+    color: #666666;
+    width: 340px;
+    height: 70px;
+    border: 1px solid rgba(219, 202, 202, 0.527);
+    text-align: left;
+    display: inline-block;
+}
+.box5{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #666666;
+    width: 340px;
+    height: 70px;
+    border: 1px solid rgba(219, 202, 202, 0.527);
+    text-align: left;
+    display: inline-block;
+}
+.row-8{
+    padding: 60px 0px 40px;
+    height: 525px;
+    margin: 0px 80px;
+    width: 1022px;
+}
+.heading2{
+    color: #316DC3;
+    font-size: 32px;
+    font-family: serif;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+.gallerycontainer{
+    padding: 0px 0px;
+    margin: 0px;
+
+}
+div.galleryitem{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    padding-right: 1px;
+    color: #666666;
+
+
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.801);
+    width:100%;
+    height: 410px;
+    margin: 0px 0px;
+    padding: 70px 15px 40px
+}
+.row-9{
+    width:970px;
+    height: 300.25;
+    margin: 0px -15px;
+
+}
+.widgetdark{
+    width: 293px;
+    height: 270px;
+    display: inline-block;
+    margin:0px 0px 30px 80px;
+    padding: 15px 10px;
+
+}
+.widgetdark p{
+    font-size: 14px;
+    color: #bbbbbb;
+    margin: 0px 0px 10px;
+
+}
+.widgetdark ul{
+    margin:5px 0px 0px -5px;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+.bottom-col1{
+
+    padding:0px 15px;
+    border: white;
+    width: 323px;
+    height: 61px;
+}
+
+.bottom-col1 h5{
+    margin: 0px 0px 20px;
+    padding: 0px 0px 10px;
+}
+.bottom-col2{
+    border: 1px white;
+    width: 293px;
+    height: 68px;
+    margin: 0px 0px 30px;  
+}
+
+.footer-1{
+    width: 100%;
+    height: 43px;
+    background-color: rgb(27, 79, 233);
+    margin: 0px;
+    padding: 15px 15px 10px;
+}
+.row-10 { 
+    background-color: rgb(27, 79, 233);
+    margin: 0px 35px;
+   padding: 0px 38px;
+}
+.row-10 p{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0px 0px 1px;
+}
